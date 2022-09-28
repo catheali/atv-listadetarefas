@@ -28,7 +28,7 @@ function addTarefa(){
     mostrarTarefas();   
 }
 function mostrarTarefas(){
-    let conteudo =  buscar().sort().map(function (tarefa) {
+    let conteudo =  buscar().map(function (tarefa) {
         return `
         <div>
             <input type="checkbox">
